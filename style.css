@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #911c43 0%, #0d8e92 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.3s;
+}
+
+body.dark-mode {
+    background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+    color: white;
+}
+
+.age-calculator {
+    max-width: 500px;
+    background: #ffffff70;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.age-calculator.dark-mode {
+    background: #1e1e2f88;
+    color: white;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="date"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4b6cb7;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #395591;
+}
+
+#result, #countdown, #zodiac, #funfact {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.options {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
