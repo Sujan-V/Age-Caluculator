@@ -1,4 +1,4 @@
-                            Advanced Age Calculator
+                                Advanced Age Calculator
 
 A modern and responsive web application to calculate your age in years, months, and days. It also shows your zodiac sign, countdown to your next birthday, 
 and fun facts — with options to download results and toggle dark mode.
@@ -37,7 +37,7 @@ and fun facts — with options to download results and toggle dark mode.
 
 ![image](https://github.com/user-attachments/assets/6a7c2225-944d-47e3-bc10-64ee980a008a)
 
-LIVE DEMO : 
+LIVE DEMO : https://sujan-v.github.io/Age-Caluculator/ 
 
 🔐 Notes
 
